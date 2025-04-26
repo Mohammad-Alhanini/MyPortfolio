@@ -1,0 +1,54 @@
+.about-section {
+  background-color: 07001b;
+}
+
+.section-title {
+  font-size: 40px;
+  margin-bottom: 60px;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+
+.about-content {
+  display: flex;
+  gap: 80px;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 18px;
+  color: #c4c4c4;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+}
+
+.skills {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.skill-item {
+  padding: 30px;
+  background-color: #ffffff27;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-item h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.skill-item p {
+  color: #a1a1a1;
+  font-size: 16px;
+}

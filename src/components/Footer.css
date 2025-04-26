@@ -1,0 +1,19 @@
+.footer {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #07001b;
+    border-top: 1px solid #333;
+    display: flex;
+}
+
+.footer h2 {
+    font-size: 24px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
