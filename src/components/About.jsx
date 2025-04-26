@@ -8,14 +8,18 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vulputate,
-          </p>
-          <p>
-            tristique quam felis. Id phasellus dui orci vulputate consequat nulla proin. Id sit.
-          </p>
-          <p>
-            scelerisque neque, proin bibendum diam.
-          </p>
+Developer. Problem-solver. Continuous learner.
+</p>
+
+<ul>I build things for the web with:
+<li>JavaScript</li>
+<li>React & Node.js</li>
+<li>Modern CSS frameworks</li>
+</ul>
+<p>
+Driven by curiosity and attention to detail, I specialize in creating fast,
+accessible web applications that deliver real value to users and businesses alike.
+</p>    
         </div>
         <div className="skills">
           <div className="skill-item">
@@ -23,11 +27,7 @@ const About = () => {
             <p>60+ Hours Experience</p>
           </div>
           <div className="skill-item">
-            <h3>Python</h3>
-            <p>4 Years Experience</p>
-          </div>
-          <div className="skill-item">
-            <h3>Machine Learning</h3>
+            <h3>wordpress</h3>
             <p>120+ Hours Experience</p>
           </div>
         </div>

@@ -36,6 +36,7 @@
   background-color: #ffffff27;
   border-radius: 8px;
   transition: transform 0.3s;
+  height: 50%;
 }
 
 .skill-item:hover {

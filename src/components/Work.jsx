@@ -21,26 +21,17 @@ const Work = () => {
     <section id="work" className="work-section">
       <h2 className="section-title">work</h2>
       <div className="work-content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vulputate
-        </p>
-        <p>
-          tristique quam felis. Id phasellus dui orci vulputate consequat nulla proin.
-        </p>
-        <p>
-          Id sit scelerisque neque, proin bibendum diam.
-        </p>
-        <div className="projects">
-          {projects.map((project, index) => (
-            <div key={index} className="project-card">
-              <h3>{project.title}</h3>
-              <p className="subtitle">{project.subtitle}</p>
-              <p className="description">{project.description}</p>
-              <p className="technologies">{project.technologies}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+     <p> I bridge design and development to create impactful digital experiences. 
+My work focuses on delivering solutions that are:
+</p>
+<ul>
+<li>- Visually compelling</li>
+<li>- Technically robust</li>
+<li>- User-friendly</li>
+<li>- Performance-optimized</li>
+</ul>
+<h3>#Go to my GitHub account to see the projects I've worked on</h3>
+</div>
     </section>
   );
 };
